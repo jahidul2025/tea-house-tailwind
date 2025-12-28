@@ -17,16 +17,20 @@
         tailwind.config = {
             theme: {
                 extend: {
+                    fontfamily: {
+                        manrope:["Manrope", 'sans-serif']
+                    },
                     colors: {
                         clifford: '#da373d',
                     }
+                    
                 }
             }
         }
     </script>
 </head>
 
-<body>
+<body class="font-manrope">
     <!-- main content -->
     <main class="max-w-6xl mx-auto px-10 mb:px-16">
         <!-- header section -->
@@ -213,13 +217,14 @@
                 </p>
             </div>
             <!-- news cards -->
-             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
                 <div class="border-[#D2D2D2] border-2 p-4 rounded-xl">
                     <img src="images/news-1.png" alt="">
                     <div>
                         <p class="text-[#777777]">Feb 05, 2027</p>
                         <h1 class="text-xl font-bold">Collecting 8 points for <br> discount</h1>
-                        <p class="text-[#777777]">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                        <p class="text-[#777777]">There are many variations of passages of <br> Lorem Ipsum available.
+                        </p>
                         <button>Learn More</button>
                     </div>
                 </div>
@@ -228,7 +233,8 @@
                     <div>
                         <p class="text-[#777777]">Feb 05, 2027</p>
                         <h1 class="text-xl font-bold">Collecting 8 points for <br> discount</h1>
-                        <p class="text-[#777777]">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                        <p class="text-[#777777]">There are many variations of passages of <br> Lorem Ipsum available.
+                        </p>
                         <button>Learn More</button>
                     </div>
                 </div>
@@ -237,12 +243,13 @@
                     <div>
                         <p class="text-[#777777]">Feb 05, 2027</p>
                         <h1 class="text-xl font-bold">Collecting 8 points for <br> discount</h1>
-                        <p class="text-[#777777]">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                        <p class="text-[#777777]">There are many variations of passages of <br> Lorem Ipsum available.
+                        </p>
                         <button>Learn More</button>
                     </div>
                 </div>
-                
-             </div>
+
+            </div>
         </section>
     </main>
     <footer class="bg-orange-100 text-gray-500 py-10 px-4 md:px-16">
